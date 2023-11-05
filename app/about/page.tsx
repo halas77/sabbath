@@ -101,7 +101,7 @@ const page = () => {
                 </Link>
               </div>
 
-              <div className="flex space-x-10 items-center justify-center lg:mt-14">
+              <div className="flex space-x-10 items-center justify-center lg:mt-14 max-md:pt-8">
                 <Link href="/">
                   <FaFacebook
                     size={30}
@@ -114,7 +114,7 @@ const page = () => {
                     className="text-gray-700 hover:text-gray-500"
                   />
                 </Link>
-                <Link href="/">
+                <Link href="https://t.me/sabbathconstruction">
                   <FaTelegram
                     size={30}
                     className="text-gray-700 hover:text-gray-500"

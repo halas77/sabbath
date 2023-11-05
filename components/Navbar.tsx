@@ -1,6 +1,7 @@
 "use client";
 
 import {motion} from "framer-motion"
+import {useState} from "react"
 
 import { nav_links } from "@Constants";
 import Image from "next/image";
@@ -8,7 +9,6 @@ import Link from "next/link";
 import { HiBars3 } from "react-icons/hi2";
 import { GrClose } from "react-icons/gr";
 import { BiChevronRight } from "react-icons/bi";
-import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 
 const Navbar = () => {
@@ -21,7 +21,7 @@ const Navbar = () => {
 
   return (
     <>
-      <header className="py-5 md:px-8 shadow-sm rounded-b-2xl">
+      <header className="py-5 md:px-8 shadow-sm rounded-b-2xl px-4">
       <motion.div
         initial={{ opacity: 0, y: -80 }}
         animate={{ opacity: 1, y: 0 }}
@@ -68,7 +68,7 @@ const Navbar = () => {
                 Contact Us
               </Link>
               <button className="block lg:hidden" onClick={navHandle}>
-                <HiBars3 className="text-3xl" />
+                <HiBars3 size={35} />
               </button>
             </div>
           </div>
@@ -89,7 +89,7 @@ const Navbar = () => {
           className="h-screen w-screen z-[9999] top-0 fixed bg-black bg-opacity-50"
           onClick={navHandle}
         ></div>
-        <div className="bg-white w-[380px] top-0 right-0 z-[9999] h-screen fixed">
+        <div className="bg-white w-[70%] top-0 right-0 z-[9999] h-screen fixed">
           <div className="h-14 px-10 border-b flex items-center">
             <button className="flex items-center space-x-3" onClick={navHandle}>
               <GrClose />

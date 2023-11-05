@@ -52,16 +52,16 @@ const Hero = () => {
 
               <div className="flex max-md:flex-col md:space-x-3 text-center ">
                 <Link
-                  href="/services"
+                  href="/contact"
                   className="text-[16px] max-md:my-3 py-4 px-14 border-2 border-sky-200 text-gray-900 max-md:text-lg font-bold font-sans rounded-full duration-300 transition-all ease-in-out hover:bg-sky-100 hover:shadow-lg inline-block relative top-0 hover:-top-1"
                 >
-                  Services
+                  Contact Us
                 </Link>
                 <Link
                   href="/projects"
                   className="text-[16px] max-md:mb-3 py-4 px-14 max-md:text-lg bg-sky-200 text-slate-900 font-bold font-sans rounded-full duration-300 transition-all ease-in-out hover:bg-sky-100 border hover:border-sky-200 hover:shadow-lg inline-block relative top-0 hover:-top-1"
                 >
-                  Projects
+                  Our Works
                 </Link>
               </div>
             </div>

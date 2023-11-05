@@ -68,7 +68,7 @@ const Contact = () => {
                 </h2>
                 <p className="font-sans text-gray-600 text-sm">
                   {" "}
-                  +251 123 4567
+                  +251 913 141634
                 </p>
               </div>
             </div>
@@ -94,7 +94,7 @@ const Contact = () => {
                       <FaInstagram size={23} />
                     </div>
                   </Link>
-                  <Link href="" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://t.me/sabbathconstruction" target="_blank" rel="noopener noreferrer">
                     <div className="text-gray-700 hover:text-gary-800 ease-in-out duration-300">
                       <FaTelegram size={23} />
                     </div>

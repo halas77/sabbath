@@ -28,7 +28,7 @@ const Footer = () => {
                 className="text-gray-400 hover:text-gray-300"
               />
             </Link>
-            <Link href="/">
+            <Link href="https://t.me/sabbathconstruction">
               <FaTelegram
                 size={30}
                 className="text-gray-400 hover:text-gray-300"
@@ -66,7 +66,7 @@ const Footer = () => {
           <div>
             <h6 className="font-medium text-gray-300">Contact</h6>
             <ul>
-              <li className="py-2 text-sm">Call Us: +251 123 4567</li>
+              <li className="py-2 text-sm">Call Us: +251 913 141634</li>
               <li className="py-2 text-sm">Email Us: sabbath7@gmail.com</li>
               <li className="py-2 text-sm">Location: Addis Ababa, Ethiopia</li>
             </ul>

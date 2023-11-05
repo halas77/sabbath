@@ -24,7 +24,7 @@ const Portfolio = () => {
             </span>
           </h1>
           <div className=""></div>
-          <div className="grid md:grid-cols-2 xl:grid-cols-5 gap-4">
+          <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-4">
             {teams.map((item) => (
               <div
                 key={item.label}
