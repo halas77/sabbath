@@ -1,7 +1,7 @@
 "use client";
 
-import {motion} from "framer-motion"
-import {useState} from "react"
+import { motion } from "framer-motion";
+import { useState } from "react";
 
 import { nav_links } from "@Constants";
 import Image from "next/image";
@@ -12,67 +12,66 @@ import { BiChevronRight } from "react-icons/bi";
 import { usePathname } from "next/navigation";
 
 const Navbar = () => {
-  const [nav, setNav] = useState(false);
   const pathname = usePathname();
+  const [nav, setNav] = useState(false);
   const navHandle = () => {
     setNav(!nav);
   };
 
-
   return (
     <>
       <header className="py-4 md:px-8 px-4 border">
-      <motion.div
-        initial={{ opacity: 0, y: -80 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1, delay: 0 }}
-      >
-        <div className="container mx-auto">
-          <div className="flex justify-between items-center">
-            {/* Logo */}
-            <div className="xl:pl-10">
-              <Link href="/">
-                <Image src="/about4.jpg" width={160} height={10} alt="Logo" />
-              </Link>
-            </div>
+        <motion.div
+          initial={{ opacity: 0, y: -80 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 0 }}
+        >
+          <div className="container mx-auto">
+            <div className="flex justify-between items-center">
+              {/* Logo */}
+              <div className="xl:pl-10">
+                <Link href="/">
+                  <Image src="/logo.png" width={160} height={10} alt="Logo" className="bg-white"/>
+                </Link>
+              </div>
 
-            {/* Navigation Menu  */}
+              {/* Navigation Menu  */}
 
-            <div className="hidden lg:block">
-              <ul className="flex space-x-14 font-sans">
-                {nav_links.map((item, index) => (
-                  <li key={item.key}>
-                    <Link
-                      href={item.href}
-                      className={
-                        pathname === item.href
-                          ? "text-gray-950 border-b-2 border-slate-400 pb-1 font-bold"
-                          : "text-gray-700 hover:text-gray-950 hover:border-b hover:border-slate-400 pb-1 ease-in-out duration-105"
-                      }
-                    >
-                      {item.label}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
+              <div className="hidden lg:block">
+                <ul className="flex space-x-14 font-sans">
+                  {nav_links.map((item, index) => (
+                    <li key={item.key}>
+                      <Link
+                        href={item.href}
+                        className={
+                          pathname === item.href
+                            ? "text-gray-950 border-b-2 border-slate-400 pb-1 font-bold"
+                            : "text-gray-700 hover:text-gray-950 hover:border-b hover:border-slate-400 pb-1 ease-in-out duration-105"
+                        }
+                      >
+                        {item.label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
 
-            {/* CTA  */}
+              {/* CTA  */}
 
-            <div>
-              <Link
-                href="/contact"
-                className="px-10 py-5 bg-zinc-950 font-bold font-sans rounded-full text-white hidden lg:inline-block hover:bg-zinc-700"
-              >
-                {" "}
-                Contact Us
-              </Link>
-              <button className="block lg:hidden" onClick={navHandle}>
-                <HiBars3 size={35} />
-              </button>
+              <div>
+                <Link
+                  href="/contact"
+                  className="px-10 py-5 bg-zinc-950 font-bold font-sans rounded-full text-white hidden lg:inline-block hover:bg-zinc-700"
+                >
+                  {" "}
+                  Contact Us
+                </Link>
+                <button className="block lg:hidden" onClick={navHandle}>
+                  <HiBars3 size={35} />
+                </button>
+              </div>
             </div>
           </div>
-        </div>
         </motion.div>
       </header>
 
@@ -101,6 +100,7 @@ const Navbar = () => {
               {nav_links.map((item, index) => (
                 <li key={item.key}>
                   <Link
+                    onClick={navHandle}
                     href={item.href}
                     className="group text-lg text-semibold flex items-center py-2 duration-300 transition-all ease-in-out hover:text-primary"
                   >

@@ -9,16 +9,16 @@ import { motion } from "framer-motion";
 
 const Services = () => {
   return (
-    <div className="w-full text-black bg-white">
+    <div className="w-full text-black bg-light">
       <motion.div
         initial={{ opacity: 0, y: 80 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0 }}
       >
-      <div className="mx-6 md:mx:18 lg:mx-32 my-12">
+      <div className="mx-6 md:mx:18 lg:mx-32 py-12">
         <h1 className="font font-extrabold text-3xl font-sans mb-10">
           SERVICE{" "}
-          <span className="font-sans border-b border-sky-200 pb-1 pr-10">
+          <span className="font-sans border-b border-sky-300 pb-1 pr-10">
             WE OFFER
           </span>
         </h1>

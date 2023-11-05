@@ -16,7 +16,7 @@ const Footer = () => {
             with creativity, ensuring every project is a unique masterpiece.
           </p>
           <div className="flex justify-between md:w-[80%] my-6">
-            <Link href="/https://www.facebook.com/profile.php?id=61552083860876&mibextid=ZbWKwL">
+            <Link href="https://www.facebook.com/profile.php?id=61552083860876&mibextid=ZbWKwL">
               <FaFacebook
                 size={30}
                 className="text-gray-400 hover:text-gray-300"
