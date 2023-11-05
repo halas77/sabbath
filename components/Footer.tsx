@@ -16,13 +16,13 @@ const Footer = () => {
             with creativity, ensuring every project is a unique masterpiece.
           </p>
           <div className="flex justify-between md:w-[80%] my-6">
-            <Link href="/">
+            <Link href="/https://www.facebook.com/profile.php?id=61552083860876&mibextid=ZbWKwL">
               <FaFacebook
                 size={30}
                 className="text-gray-400 hover:text-gray-300"
               />
             </Link>
-            <Link href="/">
+            <Link href="https://instagram.com/sabbath_construction?igshid=NGVhN2U2NjQ0Yg==">
               <FaInstagram
                 size={30}
                 className="text-gray-400 hover:text-gray-300"
@@ -68,7 +68,7 @@ const Footer = () => {
             <ul>
               <li className="py-2 text-sm">Call Us: +251 913 141634</li>
               <li className="py-2 text-sm">Email Us: sabbath7@gmail.com</li>
-              <li className="py-2 text-sm">Location: Addis Ababa, Ethiopia</li>
+              <li className="py-2 text-sm">Location: Lebu Mebrat Hayel, Addis Ababa, Ethiopia</li>
             </ul>
           </div>
         </div>

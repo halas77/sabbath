@@ -21,7 +21,7 @@ const Navbar = () => {
 
   return (
     <>
-      <header className="py-5 md:px-8 shadow-sm rounded-b-2xl px-4">
+      <header className="py-5 md:px-8 shadow-sm rounded-b-2xl px-4 bg-white">
       <motion.div
         initial={{ opacity: 0, y: -80 }}
         animate={{ opacity: 1, y: 0 }}
@@ -32,7 +32,7 @@ const Navbar = () => {
             {/* Logo */}
             <div className="xl:pl-10">
               <Link href="/">
-                <Image src="/logo.png" width={120} height={10} alt="Logo" />
+                <Image src="/logo.png" width={160} height={10} alt="Logo" />
               </Link>
             </div>
 
@@ -102,7 +102,7 @@ const Navbar = () => {
                 <li key={item.key}>
                   <Link
                     href={item.href}
-                    className="group flex items-center py-2 duration-300 transition-all ease-in-out hover:text-primary"
+                    className="group text-lg text-semibold flex items-center py-2 duration-300 transition-all ease-in-out hover:text-primary"
                   >
                     <span>{item.label}</span>
                     <span className="left-2 relative duration-300 transition-all ease-in-out opacity-0 group-hover:opacity-100 group-hover:left-3">

@@ -2,9 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useCallback, useRef, useState, useEffect } from "react";
-import { BiChevronLeft, BiChevronRight } from "react-icons/bi";
-import { Swiper, SwiperSlide } from "swiper/react";
+import { BiChevronRight } from "react-icons/bi";
 
 const projectContent = {
   projects: [
@@ -47,14 +45,14 @@ const Projects = () => {
       <div className="container px-4 mx-auto">
         <div className="flex justify-center items-center mb-8">
           <div className="mb-5 lg:mb-0 max-w-3xl">
-            <h2 className="text-heading text-2xl lg:text-4xl font-bold mb-4 text-center font-sans">
+            <h2 className="text-gray-900 text-2xl lg:text-4xl font-bold mb-4 text-center font-sans">
               Our{" "}
               <span className="border-b-2 border-sky-200 pr-10">
                 Works
               </span>
             </h2>
 
-            <p className="leading-relaxed text-center font-sans text-md text-gray-600">
+            <p className="leading-relaxed text-center font-sans text-md text-gray-700">
               Explore our portfolio of completed projects, where vision meets
               reality. From stunning residences to functional spaces, our
               finished projects embody craftsmanship, creativity, and client
@@ -66,7 +64,7 @@ const Projects = () => {
           {projectContent.projects.map((item, index) => (
             <div
               key={item.title}
-              className="shadow-md bg-gray-50 my-6 pb-10 flex flex-col mx-auto text-center rounded-md ease-in-out duration-300 border  hover:bg-gray-100 hover:scale-105"
+              className="shadow-md bg-gray-100 my-6 pb-10 flex flex-col mx-auto text-center rounded-md ease-in-out duration-300 border border-zinc-200  hover:bg-gray-100 hover:scale-105"
             >
               <Image
                 src={item.featuredImg}

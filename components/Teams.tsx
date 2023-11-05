@@ -36,7 +36,7 @@ const projectContent = {
 
 const Teams = () => {
   return (
-    <section className="pt-5 bg-gray-100 overflow-x-hidden max-sm:pb-5">
+    <section className="pt-5 bg-gray-200 overflow-x-hidden max-sm:pb-5">
       <div className="container px-4 mx-auto">
         <div className="flex justify-start items-center">
           <div className="mb-10 lg:mb-0 max-w-xl lg:px-16">
@@ -68,7 +68,7 @@ const Teams = () => {
           <div className="mx-auto flex items-center justify-center mt-2 pb-3">
             <Link
               href="/teams"
-              className="font-sans font-semibold duration-300 transition-all ease-in-out py-3 px-6 flex border rounded-full space-x-3 items-center hover:border-gray-400"
+              className="font-sans font-semibold duration-300 transition-all ease-in-out py-3 px-6 flex border rounded-full space-x-3 items-center border-gray-400 hover:border-gray-600"
             >
               Sabbath Team
               <span className="text-gray-600 text-2xl pl-2">|</span>

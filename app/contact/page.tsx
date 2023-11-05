@@ -10,7 +10,7 @@ import Form from "@components/Form";
 
 const Contact = () => {
   return (
-    <div className="w-full text-black">
+    <div className="w-full text-black bg-white">
       <motion.div
         initial={{ opacity: 0, y: 80 }}
         animate={{ opacity: 1, y: 0 }}
@@ -84,12 +84,12 @@ const Contact = () => {
                   Social Links
                 </h2>
                 <div className="flex gap-3 ">
-                  <Link href="" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://www.facebook.com/profile.php?id=61552083860876&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
                     <div className="text-gray-700 hover:text-gray-800 ease-in-out duration-300">
                       <FaFacebook size={23} />
                     </div>
                   </Link>
-                  <Link href="" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://instagram.com/sabbath_construction?igshid=NGVhN2U2NjQ0Yg==" target="_blank" rel="noopener noreferrer">
                     <div className="text-gray-700 hover:text-gray-800 ease-in-out duration-300">
                       <FaInstagram size={23} />
                     </div>

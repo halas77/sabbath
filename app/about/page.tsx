@@ -102,13 +102,13 @@ const page = () => {
               </div>
 
               <div className="flex space-x-10 items-center justify-center lg:mt-14 max-md:pt-8">
-                <Link href="/">
+                <Link href="https://www.facebook.com/profile.php?id=61552083860876&mibextid=ZbWKwL">
                   <FaFacebook
                     size={30}
                     className="text-gray-700 hover:text-gray-500"
                   />
                 </Link>
-                <Link href="/">
+                <Link href="https://instagram.com/sabbath_construction?igshid=NGVhN2U2NjQ0Yg==">
                   <FaInstagram
                     size={30}
                     className="text-gray-700 hover:text-gray-500"

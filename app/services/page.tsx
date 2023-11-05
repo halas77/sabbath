@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 
 const Services = () => {
   return (
-    <div className="w-full text-black">
+    <div className="w-full text-black bg-white">
       <motion.div
         initial={{ opacity: 0, y: 80 }}
         animate={{ opacity: 1, y: 0 }}

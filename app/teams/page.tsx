@@ -10,7 +10,7 @@ const catagories = ["All", "Furniture", "Apartment"];
 
 const Portfolio = () => {
   return (
-    <div className="w-full text-slate-900">
+    <div className="w-full text-slate-900 bg-white">
       <motion.div
         initial={{ opacity: 0, y: 80 }}
         animate={{ opacity: 1, y: 0 }}

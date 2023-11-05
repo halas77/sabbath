@@ -50,7 +50,7 @@ const services = {
 
 const Services = () => {
   return (
-    <section className="py-8 bg-gray-100">
+    <section className="py-8 bg-gray-200">
       <motion.div
         initial={{ opacity: 0, y: 80 }}
         animate={{ opacity: 1, y: 0 }}
@@ -60,7 +60,7 @@ const Services = () => {
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-heading text-2xl lg:text-4xl font-bold mb-3">
             Our{" "}
-            <span className="border-b-2 font-sans border-sky-200 pr-10">
+            <span className="border-b-2 font-sans border-sky-300 pr-10">
               Services
             </span>
           </h2>
@@ -96,7 +96,7 @@ const Services = () => {
         <div className="mx-auto flex items-center justify-center max-md:mt-10">
           <Link
             href="/services"
-            className="font-sans font-semibold duration-300 transition-all ease-in-out py-3 px-6 flex border rounded-full space-x-3 items-center hover:border-gray-400"
+            className="font-sans font-semibold duration-300 transition-all ease-in-out py-3 px-6 flex border border-gray-400 rounded-full space-x-3 items-center hover:border-gray-600"
           >
             More about our services
             <span className="text-gray-600 text-2xl pl-2">|</span>
