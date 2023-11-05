@@ -21,7 +21,7 @@ const Navbar = () => {
 
   return (
     <>
-      <header className="py-5 md:px-8 shadow-sm rounded-b-2xl px-4 bg-white">
+      <header className="py-4 md:px-8 px-4 border">
       <motion.div
         initial={{ opacity: 0, y: -80 }}
         animate={{ opacity: 1, y: 0 }}
@@ -32,7 +32,7 @@ const Navbar = () => {
             {/* Logo */}
             <div className="xl:pl-10">
               <Link href="/">
-                <Image src="/logo.png" width={160} height={10} alt="Logo" />
+                <Image src="/about4.jpg" width={160} height={10} alt="Logo" />
               </Link>
             </div>
 

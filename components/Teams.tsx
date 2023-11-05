@@ -41,7 +41,7 @@ const Teams = () => {
         <div className="flex justify-start items-center">
           <div className="mb-10 lg:mb-0 max-w-xl lg:px-16">
             <h2 className="text-heading text-2xl lg:text-3xl font-sans font-bold mb- ">
-              Our <span className="border-b-2 border-sky-200 pr-10">Team</span>
+              Our <span className="border-b-2 border-sky-300 pr-10">Team</span>
             </h2>
           </div>
         </div>

@@ -53,7 +53,7 @@ const Footer = () => {
                 href="/projects"
                 className="py-2 text-sm hover:text-gray-300"
               >
-                Works and Projects
+                Our Works
               </Link>
               <Link
                 href="/services"
@@ -68,16 +68,18 @@ const Footer = () => {
             <ul>
               <li className="py-2 text-sm">Call Us: +251 913 141634</li>
               <li className="py-2 text-sm">Email Us: sabbath7@gmail.com</li>
-              <li className="py-2 text-sm">Location: Lebu Mebrat Hayel, Addis Ababa, Ethiopia</li>
+              <li className="py-2 text-sm">
+                Location: Lebu Mebrat Hayel, A.A, Ethiopia
+              </li>
             </ul>
           </div>
         </div>
       </div>
-        <div className="bg-zinc-950 w-full flex justify-center items-center mx-auto pb-2">
-          <p className="text-gray-500 mx-auto">
-            Sabbath 2023 | All rights reserved &copy;
-          </p>
-        </div>
+      <div className="bg-zinc-950 w-full flex justify-center items-center mx-auto pb-2">
+        <p className="text-gray-500 mx-auto">
+          Sabbath 2023 | All rights reserved &copy;
+        </p>
+      </div>
     </div>
   );
 };

@@ -32,7 +32,7 @@ const Hero = () => {
           <div className="lg:flex justify-between items-center">
             <div className="lg:w-5/12 mb:10 lg:mb-0">
               {heroContent.text.subheading && (
-                <span className="border-b border-sky-200 inline-block py-1 pr-5 font-sans text-heading font-semibold relative mb-7 before:content-['']  before:bg-sky-100 before:absolute before:w-2/3 before:bottom-0 before:z-[-1] before:left-0 before:top-0">
+                <span className="border-b border-sky-200 inline-block py-1 pr-5 font-sans text-heading font-semibold relative mb-7 before:content-['']  before:bg-white before:absolute before:w-2/3 before:bottom-0 before:z-[-1] before:left-0 before:top-0">
                   {" "}
                   {heroContent.text.subheading}
                 </span>
