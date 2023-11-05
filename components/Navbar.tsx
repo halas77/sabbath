@@ -14,32 +14,10 @@ import { usePathname } from "next/navigation";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const pathname = usePathname();
-  const [dimensions, setDimensions] = useState({
-    height: window.innerHeight,
-    width: window.innerWidth,
-  });
   const navHandle = () => {
     setNav(!nav);
   };
 
-  useEffect(() => {
-    function handleResize() {
-      setDimensions({
-        height: window.innerHeight,
-        width: window.innerWidth,
-      });
-
-      if (dimensions.width > 768 && nav) {
-        setNav(false);
-      }
-
-      window.addEventListener("resize", handleResize);
-
-      return (_) => {
-        window.removeEventListener("resize", handleResize);
-      };
-    }
-  });
 
   return (
     <>
