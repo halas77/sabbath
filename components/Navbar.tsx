@@ -10,6 +10,8 @@ import { HiBars3 } from "react-icons/hi2";
 import { GrClose } from "react-icons/gr";
 import { BiChevronRight } from "react-icons/bi";
 import { usePathname } from "next/navigation";
+import { FaFacebook, FaTiktok, FaInstagram, FaTelegram } from "react-icons/fa";
+
 
 const Navbar = () => {
   const pathname = usePathname();
@@ -20,7 +22,7 @@ const Navbar = () => {
 
   return (
     <>
-      <header className="py-4 md:px-8 px-4 border">
+      <header className="py-2 md:px-8 px-4 border bg-white">
         <motion.div
           initial={{ opacity: 0, y: -80 }}
           animate={{ opacity: 1, y: 0 }}
@@ -31,7 +33,13 @@ const Navbar = () => {
               {/* Logo */}
               <div className="xl:pl-10">
                 <Link href="/">
-                  <Image src="/logo.png" width={160} height={10} alt="Logo" className="bg-white"/>
+                  <Image
+                    src="/logo.png"
+                    width={160}
+                    height={10}
+                    alt="Logo"
+                    className="bg-white "
+                  />
                 </Link>
               </div>
 
@@ -88,7 +96,7 @@ const Navbar = () => {
           className="h-screen w-screen z-[9999] top-0 fixed bg-black bg-opacity-50"
           onClick={navHandle}
         ></div>
-        <div className="bg-white w-[70%] top-0 right-0 z-[9999] h-screen fixed">
+        <div className="bg-white w-[70%] top-0 right-0 z-[9999] h-screen fixed ">
           <div className="h-14 px-10 border-b flex items-center">
             <button className="flex items-center space-x-3" onClick={navHandle}>
               <GrClose />
@@ -112,6 +120,43 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
+            <div className="flex mx-auto text-center justify-center items-center">
+              <Link
+                href="/contact"
+                className="px-10 py-4 bg-sky-950 font-bold font-sans rounded-full text-white lg:hidde"
+              >
+                {" "}
+                Contact Us
+              </Link>
+            </div>
+            <div>
+              <div className="flex justify-between md:w-[80%] my-10">
+                <Link href="https://www.facebook.com/profile.php?id=61552083860876&mibextid=ZbWKwL">
+                  <FaFacebook
+                    size={30}
+                    className="text-sky-950 hover:text-gray-500"
+                  />
+                </Link>
+                <Link href="https://instagram.com/sabbath_construction?igshid=NGVhN2U2NjQ0Yg==">
+                  <FaInstagram
+                    size={30}
+                    className="text-sky-950 hover:text-gray-500"
+                  />
+                </Link>
+                <Link href="https://t.me/sabbathconstruction">
+                  <FaTelegram
+                    size={30}
+                    className="text-sky-950 hover:text-gray-500"
+                  />
+                </Link>
+                <Link href="/">
+                  <FaTiktok
+                    size={30}
+                    className="text-sky-950 hover:text-gray-500"
+                  />
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </div>

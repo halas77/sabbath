@@ -36,7 +36,7 @@ const Contact = () => {
                 </h2>
                 <p className="font-sans text-gray-600 text-sm">
                   {" "}
-                  Addis Ababa, Ethiopia
+                  Lebu Membrat Hayil, Addis Ababa, Ethiopia
                 </p>
               </div>
             </div>

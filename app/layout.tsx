@@ -2,6 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import Navbar from "@components/Navbar";
 import Footer from "@components/Footer";
+import { GOOGLE_FONT_PROVIDER } from "next/dist/shared/lib/constants";
 
 export const metadata: Metadata = {
   title: "Sabbath Construction",
@@ -14,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="am">
       <body>
         <Navbar />
         {children}
