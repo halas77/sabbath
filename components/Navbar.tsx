@@ -12,7 +12,6 @@ import { BiChevronRight } from "react-icons/bi";
 import { usePathname } from "next/navigation";
 import { FaFacebook, FaTiktok, FaInstagram, FaTelegram } from "react-icons/fa";
 
-
 const Navbar = () => {
   const pathname = usePathname();
   const [nav, setNav] = useState(false);
@@ -122,6 +121,7 @@ const Navbar = () => {
             </ul>
             <div className="flex mx-auto text-center justify-center items-center">
               <Link
+                onClick={navHandle}
                 href="/contact"
                 className="px-10 py-4 bg-sky-950 font-bold font-sans rounded-full text-white lg:hidde"
               >
