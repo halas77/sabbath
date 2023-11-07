@@ -57,23 +57,15 @@ export const projects = [
     catagory: "Furniture",
     desc: "A coffee table that serves as the centerpiece of your living room, combining modern style with practicality.",
   },
+  {
+    featuredImg: "/projects/Project7.jpg",
+    title: "New Entry",
+    catagory: "Furniture",
+    desc: "A coffee table that serves as the centerpiece of your living room, combining modern style with practicality.",
+  },
 ];
 
-
-
-
-
-
-
-
-
-
-
-
 // ********************** // WARNING  //  *********************** //
-
-
-
 
 // NAVIGATION
 export const nav_links = [
@@ -117,7 +109,7 @@ export const services = [
   {
     icons: "/services/soil.png",
     title: "Soil Investigation",
-    desc:"Our soil investigation specialists conduct comprehensive analysis to assess soil quality and properties. We focus on delivering precise data to guide your project, ensuring optimal foundation design and construction planning."
+    desc: "Our soil investigation specialists conduct comprehensive analysis to assess soil quality and properties. We focus on delivering precise data to guide your project, ensuring optimal foundation design and construction planning.",
   },
 
   {
@@ -137,68 +129,62 @@ export const services = [
   },
 ];
 
-
 // TEAM
 
 export const teams = [
   {
     image: "/team/team1.jpg",
     label: "Dawit Mellese",
-    desc:"Software Developer"
+    desc: "Software Developer",
   },
   {
     image: "/team/team1.jpg",
     label: "Dawit Mellese",
-    desc:"Software Developer"
-
+    desc: "Software Developer",
   },
   {
     image: "/team/team1.jpg",
     label: "Dawit Mellese",
-    desc:"Software Developer"
+    desc: "Software Developer",
   },
   {
     image: "/team/team1.jpg",
     label: "Dawit Mellese",
-    desc:"Software Developer"
-
+    desc: "Software Developer",
   },
   {
     image: "/team/team1.jpg",
     label: "Dawit Mellese",
-    desc:"Software Developer"
-
+    desc: "Software Developer",
   },
   {
     image: "/team/team1.jpg",
     label: "Dawit Mellese",
-    desc:"Software Developer"
-
+    desc: "Software Developer",
   },
   {
     image: "/team/team1.jpg",
     label: "Dawit Mellese",
-    desc:"Software Developer"
-
-  }, {
+    desc: "Software Developer",
+  },
+  {
     image: "/team/team1.jpg",
     label: "Dawit Mellese",
-    desc:"Software Developer"
-
-  }, {
+    desc: "Software Developer",
+  },
+  {
     image: "/team/team1.jpg",
     label: "Dawit Mellese",
-    desc:"Software Developer"
-
-  }, {
+    desc: "Software Developer",
+  },
+  {
     image: "/team/team1.jpg",
     label: "Dawit Mellese",
-    desc:"Software Developer"
-
-  }, {
+    desc: "Software Developer",
+  },
+  {
     image: "/team/team1.jpg",
     label: "Dawit Mellese",
-    desc:"Software Developer"
-
+    desc: "Software Developer",
   },
 ];
