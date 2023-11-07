@@ -37,7 +37,7 @@ const Portfolio = () => {
                   alt="Project Image"
                   className="mx-auto"
                 />
-                <h2 className="font-bold font-sans text-gray-900 text-lg pt-7 pb-2">
+                <h2 className="font-bold font-sans text-gray-900 text-lg pt-2 pb-1">
                   {item.label}
                 </h2>
                 <p className="text-gray-600 font-sans px-2">{item.desc}</p>

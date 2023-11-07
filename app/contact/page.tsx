@@ -52,7 +52,7 @@ const Contact = () => {
                 </h2>
                 <p className="font-sans text-gray-600 text-sm">
                   {" "}
-                  sabbath7@gmail.com
+                  sabbathcon@gmail.com
                 </p>
               </div>
             </div>
@@ -100,7 +100,7 @@ const Contact = () => {
                     </div>
                   </Link>
 
-                  <Link href="" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://www.tiktok.com/@sabbath.construction?_r=1&_d=demc7a483bk1bd&sec_uid=MS4wLjABAAAAUxSjIqJohoda08ei67dgdL0RwrB4zIi4Y5foFJ3pKaulHmgKZFgHVqxKFqaxugzS&share_author_id=6880749743866414086&sharer_language=en&source=h5_m&u_code=demc79em6hdblh&timestamp=1699195467&user_id=6880749743866414086&sec_user_id=MS4wLjABAAAAUxSjIqJohoda08ei67dgdL0RwrB4zIi4Y5foFJ3pKaulHmgKZFgHVqxKFqaxugzS&utm_source=copy&utm_campaign=client_share&utm_medium=android&share_iid=7285574843830896389&share_link_id=65898714-2e6c-4a09-a454-c41479448c06&share_app_id=1233&ugbiz_name=ACCOUNT&ug_btm=b8727%2Cb0229&social_share_type=5" target="_blank" rel="noopener noreferrer">
                     <div className="text-gray-700 hover:text-gray-800 ease-in-out duration-300">
                       <FaTiktok size={23} />
                     </div>

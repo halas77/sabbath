@@ -30,7 +30,7 @@ const Form = () => {
             id=""
             rows={8}
             placeholder="Message"
-            className="bg-gray-50 w-full p-3 text-sm"
+            className="bg-gray-50 w-full p-3 text-sm outline-none"
           />
         </div>
         <div className="flex justify-center mx-auto">

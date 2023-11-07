@@ -33,17 +33,16 @@ const services = {
       title: "Project Management",
       desc: "A seamless process, from concept to completion, ensuring quality and timelines are met.",
     },
+    {
+      icons: "/soil.png",
+      title: "Soil Investigation",
+      desc:"Expert analysis for sound construction foundation planning."
+    },
 
     {
       icons: "/furn.png",
       title: "Furniture Design and Manufacturing",
       desc: "Crafted for style and functionality, our furniture complements your home's aesthetic. ",
-    },
-
-    {
-      icons: "/decor3.png",
-      title: "Styling and Decoration",
-      desc: "We breathe new life into existing spaces, enhancing functionality and beauty.",
     },
   ],
 };

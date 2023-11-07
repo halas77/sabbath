@@ -1,13 +1,11 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
-import { AiFillGithub, AiOutlineLink } from "react-icons/ai";
-import Link from "next/link";
 import { projects } from "@Constants";
 import { motion } from "framer-motion";
 
 
-const catagories = ["All",  "Construction","Furniture"];
+const catagories = ["All",  "Structural Design", "Interior Design", "Furniture"];
 
 const Portfolio = () => {
   const [selectedCatagory, setSelectedCatagory] = useState("All");
@@ -37,7 +35,7 @@ const Portfolio = () => {
         </h1>
         <div className="">
           <div className="flex justify-center mx-auto mt-12 mb-5 ">
-            <div className="flex items-center justify-between py-2 px-8 gap-3 rounded-lg">
+            <div className="flex max-md:grid max-md:grid-cols-2 items-center justify-between py-2 lg:px-8 px-2 gap-3 rounded-lg">
               {catagories.map((catagory) => (
                 <button
                   key={catagory}
@@ -45,7 +43,7 @@ const Portfolio = () => {
                   className={`${
                     selectedCatagory === catagory
                       ? "bg-gray-300 text-slate-900 rounded-full"
-                      : " text-slate-900  hover:bg-gray-100 ease-in-out duration-200 border"
+                      : "text-slate-900  hover:bg-gray-200 ease-in-out duration-200 border border-gray-300"
                   } py-2 px-6 rounded-full  font-semibold text-md`}
                 >
                   {catagory}

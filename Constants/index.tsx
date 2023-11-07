@@ -37,6 +37,11 @@ export const services = [
     title: "Furniture Design and Manufacturing",
     desc: " We tailor furniture to your exact specifications, ensuring it complements your home's unique aesthetic and suits your lifestyle.",
   },
+  {
+    icons: "/soil.png",
+    title: "Soil Investigation",
+    desc:"Our soil investigation specialists conduct comprehensive analysis to assess soil quality and properties. We focus on delivering precise data to guide your project, ensuring optimal foundation design and construction planning."
+  },
 
   {
     icons: "/decor3.png",

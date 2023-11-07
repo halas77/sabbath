@@ -33,7 +33,7 @@ const Navbar = () => {
               <div className="xl:pl-10">
                 <Link href="/">
                   <Image
-                    src="/logo.png"
+                    src="/mylogo.png"
                     width={160}
                     height={10}
                     alt="Logo"
@@ -68,7 +68,7 @@ const Navbar = () => {
               <div>
                 <Link
                   href="/contact"
-                  className="px-10 py-5 bg-zinc-950 font-bold font-sans rounded-full text-white hidden lg:inline-block hover:bg-zinc-700"
+                  className="px-10 py-5 bg-sky-950 font-bold font-sans rounded-full text-white hidden lg:inline-block hover:bg-zinc-700"
                 >
                   {" "}
                   Contact Us
@@ -149,7 +149,7 @@ const Navbar = () => {
                     className="text-sky-950 hover:text-gray-500"
                   />
                 </Link>
-                <Link href="/">
+                <Link href="https://www.tiktok.com/@sabbath.construction?_r=1&_d=demc7a483bk1bd&sec_uid=MS4wLjABAAAAUxSjIqJohoda08ei67dgdL0RwrB4zIi4Y5foFJ3pKaulHmgKZFgHVqxKFqaxugzS&share_author_id=6880749743866414086&sharer_language=en&source=h5_m&u_code=demc79em6hdblh&timestamp=1699195467&user_id=6880749743866414086&sec_user_id=MS4wLjABAAAAUxSjIqJohoda08ei67dgdL0RwrB4zIi4Y5foFJ3pKaulHmgKZFgHVqxKFqaxugzS&utm_source=copy&utm_campaign=client_share&utm_medium=android&share_iid=7285574843830896389&share_link_id=65898714-2e6c-4a09-a454-c41479448c06&share_app_id=1233&ugbiz_name=ACCOUNT&ug_btm=b8727%2Cb0229&social_share_type=5">
                   <FaTiktok
                     size={30}
                     className="text-sky-950 hover:text-gray-500"
