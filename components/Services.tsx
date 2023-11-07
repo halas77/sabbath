@@ -13,34 +13,34 @@ const services = {
   },
   items: [
     {
-      icons: "/construction.png",
+      icons: "/services/construction.png",
       title: "Construction",
       desc: "We build homes with precision, meeting industry standards and your unique specifications.",
     },
     {
-      icons: "/int2.jpeg",
+      icons: "/services/int2.jpeg",
       title: "Interior Design",
       desc: "Tailored designs to transform interiors into inviting spaces.",
     },
     {
-      icons: "/consult1.png",
+      icons: "/services/consult1.png",
       title: "Architectural Consultation",
       desc: "Our experts offer guidance and expertise to bring your dream home to life.",
     },
 
     {
-      icons: "/manage.png",
+      icons: "/services/manage.png",
       title: "Project Management",
       desc: "A seamless process, from concept to completion, ensuring quality and timelines are met.",
     },
     {
-      icons: "/soil.png",
+      icons: "/services/soil.png",
       title: "Soil Investigation",
       desc:"Expert analysis for sound construction foundation planning."
     },
 
     {
-      icons: "/furn.png",
+      icons: "/services/furn.png",
       title: "Furniture Design and Manufacturing",
       desc: "Crafted for style and functionality, our furniture complements your home's aesthetic. ",
     },

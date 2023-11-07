@@ -12,7 +12,7 @@ const solution = {
     desc: "Sabbath is an innovative construction and furniture company dedicated to transforming architectural visions into reality. With a passion for precision and an eye for design, we create homes that exude elegance and comfort. Our expert team combines craftsmanship with creativity, ensuring every project is a unique masterpiece. Sabbath stands at the forefront of the construction, furniture and interior design industry. We are committed to crafting exceptional living spaces that reflect our clients' dreams and aspirations. With a blend of expertise, innovation, and style, we turn ordinary houses into extraordinary homes, redefining the art of living.",
   },
   images: {
-    img1: "/about1.jpg",
+    img1: "/about/about.jpg",
     img3: "/img9.jpg",
     img2: "/about4.jpg",
   },

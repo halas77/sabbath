@@ -7,32 +7,32 @@ import { BiChevronRight } from "react-icons/bi";
 const projectContent = {
   projects: [
     {
-      featuredImg: "/house.jpg",
+      featuredImg: "/projects/Project1.jpg",
       title: "Tranquil Haven Retreat",
       desc: "A peaceful, nature-inspired haven that offers a serene escape from the hustle and bustle of daily life.",
     },
     {
-      featuredImg: "/img9.jpg",
+      featuredImg: "/projects/Project2.jpg",
       title: "Coastal Elegance Estate",
       desc: " luxurious coastal estate that exudes elegance and offers stunning ocean views, perfect for refined living.",
     },
     {
-      featuredImg: "/hero2.jpg",
+      featuredImg: "/projects/Project3.jpg",
       title: "Zenith Sofa Collection",
       desc: "A sofa that represents the pinnacle of comfort, offering the highest quality in modern living room furniture.",
     },
     {
-      featuredImg: "/img8.jpg",
+      featuredImg: "/projects/Project4.jpg",
       title: "Rustic Charm Cottage",
       desc: "A cozy and inviting cottage filled with rustic charm, evoking a sense of nostalgia and warmth.",
     },
     {
-      featuredImg: "/hero1.jpg",
+      featuredImg: "/projects/Project5.jpg",
       title: "Serenity Bedroom Set",
       desc: "A bedroom furniture set that aims to create a peaceful and calming atmosphere for a restful night's sleep.",
     },
     {
-      featuredImg: "/img9.jpg",
+      featuredImg: "/projects/Project1.jpg",
       title: "Zen Garden Villa",
       desc: "A harmonious villa with a Zen garden that promotes tranquility and a sense of balance.",
     },
@@ -46,10 +46,7 @@ const Projects = () => {
         <div className="flex justify-center items-center mb-8">
           <div className="mb-5 lg:mb-0 max-w-3xl">
             <h2 className="text-gray-900 text-2xl lg:text-4xl font-bold mb-4 text-center font-sans">
-              Our{" "}
-              <span className="border-b-2 border-sky-200 pr-10">
-                Works
-              </span>
+              Our <span className="border-b-2 border-sky-200 pr-10">Works</span>
             </h2>
 
             <p className="leading-relaxed text-center font-sans text-md text-gray-700">

@@ -1,14 +1,9 @@
 "use client";
 import Image from "next/image";
-import { useState } from "react";
-import { AiFillGithub, AiOutlineLink } from "react-icons/ai";
-import Link from "next/link";
 import { projects, teams } from "@Constants";
 import { motion } from "framer-motion";
 
-const catagories = ["All", "Furniture", "Apartment"];
-
-const Portfolio = () => {
+const About = () => {
   return (
     <div className="w-full text-slate-900 bg-light">
       <motion.div
@@ -50,4 +45,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default About;

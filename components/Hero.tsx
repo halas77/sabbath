@@ -12,11 +12,11 @@ const heroContent = {
     desc: "Sabbath stands at the forefront of the construction, furniture and interior design industry. We are committed to crafting exceptional living spaces that reflect our clients' dreams and aspirations. With a blend of expertise, innovation, and style, we turn ordinary houses into extraordinary homes.",
   },
   image: {
-    img1: "/img0.jpeg",
-    img5: "/hero1.jpg",
-    img3: "/img9.jpg",
-    img4: "/hero2.jpg",
-    img2: "/img6.jpg",
+    img1: "/hero/Hero1.jpeg",
+    img2: "/hero/Hero4.jpg",
+    img3: "/hero/Hero5.jpg",
+    img4: "/hero/Hero3.jpg",
+    img5: "/hero/Hero2.jpg",
   },
 };
 
