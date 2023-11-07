@@ -33,7 +33,7 @@ const Navbar = () => {
               <div className="xl:pl-10">
                 <Link href="/">
                   <Image
-                    src="/mylogo.png"
+                    src="/hero/mylogo.png"
                     width={160}
                     height={10}
                     alt="Logo"
