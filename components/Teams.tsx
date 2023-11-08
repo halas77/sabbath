@@ -7,27 +7,27 @@ import {BiChevronRight } from "react-icons/bi";
 const projectContent = {
   projects: [
     {
-      featuredImg: "/photo.JPG",
+      featuredImg: "/team/team1.jpg",
       title: "Dawit Mellese",
       desc: "Software Developer",
     },
     {
-      featuredImg: "/photo.JPG",
+      featuredImg: "/team/team1.jpg",
       title: "Dawit Mellese",
       desc: "Software Developer",
     },
     {
-      featuredImg: "/photo.JPG",
+      featuredImg: "/team/team1.jpg",
       title: "Dawit Mellese",
       desc: "Software Developer",
     },
     {
-      featuredImg: "/photo.JPG",
+      featuredImg: "/team/team1.jpg",
       title: "Dawit Mellese",
       desc: "Software Developer",
     },
     {
-      featuredImg: "/photo.JPG",
+      featuredImg: "/team/team1.jpg",
       title: "Dawit Mellese",
       desc: "Software Developer",
     },
